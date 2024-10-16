@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6999e8b71b8bb0508c5143f3cc4bcb4e</sp_column>
+        <sp_widget display_value="KB Article Helpful">69a638365b722200a9ad09ed5a62bceb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-13 21:19:11</sys_created_on>
+        <sys_id>6599e8b71b8bb0508c5143f3cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Helpful?</sys_name>
+        <sys_package display_value="NSG Customer Portal Support &amp; Knowledge Base" source="x_apig_nsg_custome">b523cba71b87705062e50ed2cd4bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NSG Customer Portal Support &amp; Knowledge Base">b523cba71b87705062e50ed2cd4bcb00</sys_scope>
+        <sys_update_name>sp_instance_6599e8b71b8bb0508c5143f3cc4bcb53</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-13 21:19:11</sys_updated_on>
+        <title>Helpful?</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"response": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_percent_helpful": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=6599e8b71b8bb0508c5143f3cc4bcb53"/>
+</record_update>

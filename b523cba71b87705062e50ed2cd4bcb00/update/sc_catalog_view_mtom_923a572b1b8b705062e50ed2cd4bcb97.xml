@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="NSG Customer Catalog">eb1a532b1b8b705062e50ed2cd4bcbb5</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-13 15:32:26</sys_created_on>
+        <sys_id>923a572b1b8b705062e50ed2cd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NSG Customer Catalog.catalog_nsg_customer_catalog</sys_name>
+        <sys_package display_value="NSG Customer Portal Support &amp; Knowledge Base" source="x_apig_nsg_custome">b523cba71b87705062e50ed2cd4bcb00</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_nsg_customer_catalog">163a572b1b8b705062e50ed2cd4bcb95</sys_portal_page>
+        <sys_scope display_value="NSG Customer Portal Support &amp; Knowledge Base">b523cba71b87705062e50ed2cd4bcb00</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_923a572b1b8b705062e50ed2cd4bcb97</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-13 15:32:26</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

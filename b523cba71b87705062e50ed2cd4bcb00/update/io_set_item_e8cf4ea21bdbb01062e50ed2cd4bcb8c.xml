@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <sc_cat_item display_value="Submit an Issue">19e5df2f1b4b705062e50ed2cd4bcbc5</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-10-22 17:48:52</sys_created_on>
+        <sys_id>e8cf4ea21bdbb01062e50ed2cd4bcb8c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>NSG Footer Info.Submit an Issue</sys_name>
+        <sys_package display_value="NSG Customer Portal Support &amp; Knowledge Base" source="x_apig_nsg_custome">b523cba71b87705062e50ed2cd4bcb00</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NSG Customer Portal Support &amp; Knowledge Base">b523cba71b87705062e50ed2cd4bcb00</sys_scope>
+        <sys_update_name>io_set_item_e8cf4ea21bdbb01062e50ed2cd4bcb8c</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-10-22 17:49:34</sys_updated_on>
+        <variable_set display_value="NSG Footer Info">83bf0ea21bdbb01062e50ed2cd4bcb79</variable_set>
+    </io_set_item>
+</record_update>
