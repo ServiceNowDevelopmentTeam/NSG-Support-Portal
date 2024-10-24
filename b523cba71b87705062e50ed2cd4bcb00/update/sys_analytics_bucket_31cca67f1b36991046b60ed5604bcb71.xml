@@ -3,7 +3,8 @@
         <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
         <application_name>NSG Customer Portal Support</application_name>
         <bucket_document_id>92d383eb1b87705062e50ed2cd4bcb92</bucket_document_id>
-        <bucket_metadata/>
+        <bucket_metadata>{"MaxSessionDuration":"14400","ConfigReloadTime":"86400000","SessionTimeout":"1800000","HeartbeatInterval":"5000","MetadataRecordingRatio":"1","ClientLogsUploadPolicy":"1","AutoDetectScreens":"true","MaxDataPointsPerHeartbeat":"1000"}</bucket_metadata>
+        <bucket_metadata_customer_override/>
         <bucket_table_name>sp_portal</bucket_table_name>
         <bucket_type>service_portal</bucket_type>
         <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>

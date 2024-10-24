@@ -233,37 +233,21 @@ nav #tour-dropdown {
         <script><![CDATA[// Defines the support queue ID that will be linked to by the Live Chat link in header
 data.connect_support_queue_id = $sp.getValue('sp_chat_queue');
 data.login_page = $sp.getValue('login_page');
-data.profileBtnMsg = gs.getMessage("User options");
-var menu = $sp.getValue("sp_rectangle_menu");
-data.menu = $sp.getWidgetFromInstance(menu);
-if (data.menu && data.menu.data) {
-	data.menu.data.replace = true;
-	// Hide login if menu already has link to login
-	data.hasLogin = false;
-	if (data.menu.data.menu.items) {
-		for(var i in data.menu.data.menu.items) {
-			var item = data.menu.data.menu.items[i];
-			if (item.type == 'page' && item.sp_page == data.login_page)
-				data.hasLogin = true;
-		}
-	}
-}
-
-data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
+data.profileBtnMsg = gs.getMessage("User options");]]></script>
         <servicenow>false</servicenow>
         <static>false</static>
         <sys_class_name>sp_header_footer</sys_class_name>
         <sys_created_by>Terry.Lillo</sys_created_by>
         <sys_created_on>2021-11-03 13:24:55</sys_created_on>
         <sys_id>8f660b921b6b3c5062e50ed2cd4bcb45</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Public Header</sys_name>
         <sys_package display_value="NSG Customer Portal Support &amp; Knowledge Base" source="x_apig_nsg_custome">b523cba71b87705062e50ed2cd4bcb00</sys_package>
         <sys_policy/>
         <sys_scope display_value="NSG Customer Portal Support &amp; Knowledge Base">b523cba71b87705062e50ed2cd4bcb00</sys_scope>
         <sys_update_name>sp_header_footer_8f660b921b6b3c5062e50ed2cd4bcb45</sys_update_name>
         <sys_updated_by>Terry.Lillo</sys_updated_by>
-        <sys_updated_on>2021-11-03 14:12:08</sys_updated_on>
+        <sys_updated_on>2024-10-24 21:11:18</sys_updated_on>
         <template><![CDATA[<div>
   <nav class="navbar-inverse" ng-class="::{'navbar':!isViewNative, 'is-native': isViewNative}"
        role="navigation">
@@ -288,4 +272,15 @@ data.loginWidget = $sp.getWidgetFromInstance('login-modal');]]></script>
   </nav>
 </div>]]></template>
     </sp_header_footer>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8f660b921b6b3c5062e50ed2cd4bcb45</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2024-10-24 21:11:18</sys_created_on>
+        <sys_id>4bbf1580fb251a10e070fff26eefdcfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2024-10-24 21:11:18</sys_updated_on>
+        <table>sp_header_footer</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
